@@ -18,3 +18,11 @@ def contar_vogais(texto):
 def estoque (item, quantidade, valor_unit):
     valortotal = quantidade * valor_unit
     return valortotal
+
+def numero(n):
+    if n == 0:
+        return "Z"
+    elif n > 0:
+        return "P"
+    else:
+        return "N"
