@@ -32,3 +32,11 @@ def soma(*a):
     for x in range(len(a)):
         soma += a[x]
     print(soma)
+
+def texto(t):
+    cont = 0
+    for x in range(len(t)-1,-1,-1):
+        print(t[x], end="")
+        if t[x] != " ":
+            cont += 1
+    print(cont)
