@@ -26,3 +26,9 @@ def numero(n):
         return "P"
     else:
         return "N"
+
+def soma(*a):
+    soma = 0
+    for x in range(len(a)):
+        soma += a[x]
+    print(soma)
